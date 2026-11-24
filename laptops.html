@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laptops</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="p-laptops">
+<div class="pagina">
+<header class="encabezado" id="encabezado">
+  <a class="logo" href="index.html">
+    <img src="img/logo.png" alt="TechZone">
+  </a>
+  <div class="barra">
+    <button class="hamburguesa" id="hamburguesa" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="menu" id="menu">
+      <a href="index.html">Inicio</a>
+      <div class="item-productos">
+        <a href="productos.html" class="enlace-productos" id="enlace-productos">Productos 
+          <span class="flecha">&#9662;</span>
+        </a>
+        <div class="submenu">
+          <a href="celulares.html">Celulares</a>
+          <a href="laptops.html">Laptops</a>
+          <a href="componentes.html">Componentes</a>
+          <a href="productos.html" class="ver-todo">Ver todo</a>
+        </div>
+      </div>
+      <a href="ofertas.html">Ofertas</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#contactos">Contactos</a>
+    </nav>
+    <form class="buscador" role="search" onsubmit="return false">
+      <input type="search" placeholder="Buscar productos..." aria-label="Buscar productos">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M15 15l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </form>
+    <a class="carrito" href="#" aria-label="Carrito"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M3 6h7l6 22h22l5-16H13" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="38" r="3.2" fill="#fff"/><circle cx="34" cy="38" r="3.2" fill="#fff"/></svg></a>
+  </div>
+</header>
+<main class="contenido">
+  <h1 class="titulo">Laptops</h1>
+  <section class="cuadricula">
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-galaxy-book-4.jpg" alt="Laptop Galaxy Book 4">
+        </div>
+        <h3>Laptop Galaxy Book 4</h3>
+        <p class="precio">799.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-dell-pro-16.jpg" alt="Laptop Dell Pro 16">
+        </div>
+        <h3>Laptop Dell Pro 16</h3>
+        <p class="precio">759.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-hp-victus-15.jpg" alt="Laptop HP Victus 15">
+        </div>
+        <h3>Laptop HP Victus 15</h3>
+        <p class="precio">999.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-lenovo-thinkpad-e16.jpg" alt="Laptop Lenovo ThinkPad E16">
+        </div>
+        <h3>Laptop Lenovo ThinkPad E16</h3>
+        <p class="precio">899.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-rog-strix-g16.jpg" alt="Laptop ROG Strix G16">
+        </div>
+        <h3>Laptop ROG Strix G16</h3>
+        <p class="precio">1249.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-asus-vivobook-x515.jpg" alt="Laptop Asus VivoBook X515">
+        </div>
+        <h3>Laptop Asus VivoBook X515</h3>
+        <p class="precio">869.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-msi-thin-15.jpg" alt="Laptop MSI THIN 15 B13VE">
+        </div>
+        <h3>Laptop MSI THIN 15 B13VE</h3>
+        <p class="precio">1199.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+      <article class="tarjeta">
+        <div class="foto">
+          <img src="img/laptop-acer-aspire-3.jpg" alt="Laptop Acer Aspire 3 A315">
+        </div>
+        <h3>Laptop Acer Aspire 3 A315</h3>
+        <p class="precio">919.99$</p>
+        <a class="comprar" href="#">Comprar</a>
+      </article>
+  </section>
+</main>
+<footer class="pie">
+  <div class="pie-contenido">
+    <div class="pie-texto">
+      <section id="nosotros">
+        <h2>Acerca de TechZone</h2>
+        <p>En TechZone ayudamos a que todos accedan a la tecnología que necesitan.
+          <br>
+          Vendemos laptops, celulares, y accesorios originales, con atencion personalizada y precios justos.
+        </p>
+        <ul class="ventajas">
+          <li>Productos originales</li>
+          <li>Atención personalizada</li>
+          <li>Garantía</li>
+        </ul>
+      </section>
+      <section id="contactos">
+        <h2>Contactos</h2>
+        <ul class="contactos">
+          <li>
+            <img src="img/icon-whatsapp.svg" alt="">
+            <span>+591 78440965</span>
+          </li>
+          <li>
+            <img src="img/icon-gmail.svg" alt="">
+            <span>techzone@gmail.com</span>
+          </li>
+          <li>
+            <img src="img/icon-ubicacion.svg" alt="">
+            <span>Potosí-Bolivia</span>
+          </li>
+          <li>
+            <img src="img/icon-telefono.svg" alt="">
+            <span>78440965</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <img class="pie-logo" src="img/logo-icono.png" alt="">
+  </div>
+  <p class="copyright">© 2026 TechZone. Todos los derechos reservados.</p>
+</footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
